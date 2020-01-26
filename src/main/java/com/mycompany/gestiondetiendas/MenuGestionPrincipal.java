@@ -59,8 +59,7 @@ public class MenuGestionPrincipal {
         crearTablaEmpleados(con);
         crearTablaClientes(con);
         crearTablaProductosTiendas(con);
-        crearTablaEmpleadosTiendas(con);    
-        leerJson();        
+        crearTablaEmpleadosTiendas(con); 
         System.out.println("\n|---------------------------|");
         System.out.println("|App de gestión [Franquicia]|");
         System.out.println("|---------------------------|");
