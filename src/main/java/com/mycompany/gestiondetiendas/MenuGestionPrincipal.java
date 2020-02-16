@@ -238,6 +238,7 @@ public class MenuGestionPrincipal {
                     }
                     System.out.println("\nRedirigiendo al menú...");  
                     break;
+                    
                 case "9":
                     mostrarStock();
                     System.out.println("\nRedirigiendo al menú...");
