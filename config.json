@@ -1,0 +1,15 @@
+{
+    "dbConnection":{
+        "address":"192.168.56.101",
+        "port":"3306",
+        "name":"hibernate",
+        "user":"userhibernate",
+        "password":"abc123."    
+    },
+    "hibernate":{
+        "driver":"com.mysql.cj.jdbc.Driver",
+        "dialect":"org.hibernate.dialect.MySQL5Dialect",
+        "HBM2DDL_AUTO":"create",
+        "SHOW_SQL": true
+    }
+}

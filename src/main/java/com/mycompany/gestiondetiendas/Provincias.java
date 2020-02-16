@@ -5,24 +5,31 @@
  */
 package com.mycompany.gestiondetiendas;
 
+import com.google.gson.Gson;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Serializable;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
+import javax.persistence.*;
+
 /**
  *
  * @author JoseM
  */
-public class Provincias {
-    private final int id_pro;
-    private final String nombre_pro;
-    
-    public Provincias(int id_pro,String nombre_pro) {
-        this.id_pro = id_pro;
-        this.nombre_pro = nombre_pro;
-    }
-    public int getIdPro() {
-        return id_pro;
-    }
 
-    public String getNombrePro() {
-        return nombre_pro;
+public class Provincias implements Serializable {
+    
+    private List<Provincia> provincias;
+    public List<Provincia> getProvincias() {
+        return provincias;
     }
+    
     
 }
